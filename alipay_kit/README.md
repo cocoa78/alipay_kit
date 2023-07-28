@@ -48,6 +48,9 @@ Flutter 版支付宝SDK
 
 * UTDID冲突的问题解决方案
 
+- iOS App 支持 arm64 架构模拟器上运行，使用 XCFramework 格式的 SDK 
+- version:15.8.15  modify:2023.06.10
+
 ```diff
 alipay_kit:
 +  ios: noutdid # 默认 utdid
